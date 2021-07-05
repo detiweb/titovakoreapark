@@ -17,14 +17,14 @@ h3{
 p{
 	background: #A0B3C1;
 }
-a{
+.a{
 	text-decoration: none;
 	color: white;
 	background:  #A0B3C1;
 	font-size: 17px;
 }
 
-img{
+.img{
 	width: 40%;
 	height: 400px;
 	margin-left: 30%; 
@@ -32,9 +32,9 @@ img{
 }
 .card{
 	width: 400px;
-	height: 200px;
+	height: 191px;
 	text-align: center;
-	margin-left: 30%;
+	margin-left: 37%;
 	background: #B3BCC1;
 	border: 6px solid #91ABC2;
 	color: white;
@@ -43,7 +43,7 @@ img{
 nav{
 	text-align: center;
 }
-a:hover{
+.a:hover{
 	background: #8598A6
 }
 .fot{
@@ -56,7 +56,27 @@ a:hover{
 	height: 40px;
 }
 .u{
-	color: white;
-	margin-left: 45%;
-	font-size: 10px;
+	color: grey;
+	margin-left: 40%;
+	font-size: 15px;
+}
+.up{ 
+	width:80px;   
+	position:fixed;  
+	bottom:50px;   
+	right:50px;  	
+}
+.button {
+    background-color: #8598A6;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button:hover {
+    background-color: white;
+    color: #8598A6;
 }
